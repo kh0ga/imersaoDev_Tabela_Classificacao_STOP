@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <title> Imersão Dev - Aula 06 </title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+  <p class="rodada">Rodada <span id="rodada">1</span></p>
+
+  <img class="stop-img" src="img/stop.png" alt="">
+
+  <p id="letraSorteada">?</p>
+  <button id="btnSortearLetra" onclick="sortearLetra()">O UESTÓP É</button>
+
+  <div class="container">
+
+    <div class="header">
+
+      <input id="inputAdicionarJogador" type="text" placeholder="Nome Jogador">
+      <input id="inputFoto" type="text" placeholder="URL imagem de perfil">
+      <button id="btnAdicionarJogador" onclick="adicionarJogador()">Adicionar jogador</button>
+
+    </div>
+
+    <table style="width:100%">
+      <thead>
+        <tr>
+          <th>Nome</th>
+          <th>Palavra Única</th>
+          <th>Palavra Repetida</th>
+          <th>Pontuação da Rodada</th>
+          <th>Total</th>
+        </tr>
+      </thead>
+      <tbody id="tabelaJogadores">
+        <!-- Aqui são inseridos os jogadores -->
+      </tbody>
+    </table>
+
+  </div>
+
+  <div class="bottom">
+    <button id="btnNovaRodada" onclick="novaRodada()">Nova Rodada</button>
+  </div>
+
+  <script type="text/javascript" src="script.js"></script>
+
+</body>
+
+</html>

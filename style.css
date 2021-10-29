@@ -1,0 +1,181 @@
+body {
+  font-family: cursive;
+  min-height: 900px;
+  background-image: url("img/patrick.png");
+  background-color: #8420c7;
+  background-size: 50vh;
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  text-align: center;
+  padding: 0;
+  margin: 60px 0 20px 0;
+}
+
+.profile-img {
+  max-height: 80px;
+  margin: 5px auto;
+  border-radius: 10px;
+  display: block;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 20px;
+  max-width: 1000px;
+}
+
+.page-title {
+  color: #ffffff;
+  margin: 0 0 5px;
+}
+
+.page-subtitle {
+  color: #ffffff;
+  margin-top: 5px;
+}
+
+.page-logo {
+  width: 200px;
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+#letraSorteada {
+  color: #fff;
+  font-size: 36px;
+  font-weight: bold;
+  margin: 20px auto;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+}
+
+.rodada {
+  color: #fff;
+  width: 100px;
+  float: left;
+  margin: 0 1700px;
+  font-size: 20px;
+  border: 2px solid #fff;
+  border-radius: 100px;
+  padding: 10px;
+}
+
+.header {
+  margin: 20px;
+}
+
+table {
+  border-collapse: collapse;
+  border: 1px solid rgb(0, 0, 0);
+  backdrop-filter: blur(5px);
+}
+
+h1 {
+  color: #f3d00d;
+}
+
+th,
+tr,
+td {
+  border: none;
+  color: white;
+  font-size: 24px;
+  padding: 16px;
+}
+
+th {
+  background-color: rgba(0, 0, 0, 0.3);
+  font-size: 16px;
+}
+
+tr:nth-child(even) {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.header button {
+  margin: 20px auto;
+  padding: 8px;
+}
+
+#btnNovaRodada,
+#btnSortearLetra {
+  width: 150px;
+  border-radius: 100px;
+  padding: 10px;
+}
+
+input {
+  font-family: cursive;
+  text-align: center;
+  padding: 8px;
+  border: none;
+  border-radius: 100px;
+  margin: 10px;
+}
+
+button {
+  font-family: cursive;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  border-radius: 100px;
+  background: #2cc238;
+  color: #fff;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #23a02d;
+}
+
+.btnPontos {
+  font-weight: bold;
+  width: 100px;
+  color: #fff;
+  font-size: 20px;
+  margin: 10px 0;
+  padding: 4px;
+  transition: 0s;
+}
+
+.btnPontos:active {
+  transform: translateY(4px);
+}
+
+#btn10Pontos {
+  background-color: #0bb2ff;
+}
+
+#btn5Pontos {
+  background-color: #f3b815;
+}
+
+#btnAdicionarJogador {
+  margin: 10px;
+  padding: 8px 16px;
+}
+
+.trofeu {
+  width: 50px;
+  position: absolute;
+  margin-left: 10px;
+}
+
+.trofeu {
+  animation: bounce 0.5s infinite alternate;
+}
+@keyframes bounce {
+  from {
+    transform: translateY(0px);
+  }
+  to {
+    transform: translateY(-10px);
+  }
+}
